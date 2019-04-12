@@ -1,7 +1,7 @@
 # CLARA 
-_Convolutional Learning for Awake Rodent-MRI Analysis_
+_Convo-Net Learning for Awake Rodent-MRI Analysis_
 
-Alexander Laurence (a.laurence@celestial.tokyo)
+Alexander Laurence (alexander.adamlaurence@gmail.com)
 
 CLARA is an AI-driven tool to visually inspect for BOLD-signal intensity dropouts in awake rodent fMRI slices. Essentially you input NIfTI files, run the image classifier, and recieve a list of noisy slices.
 
