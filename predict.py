@@ -25,7 +25,7 @@ x_batch = images.reshape(1, image_size,image_size,num_channels)
 ## Let us restore the saved model 
 sess = tf.Session()
 # Step-1: Recreate the network graph. At this step only graph is created.
-saver = tf.train.import_meta_graph('RatNet-model.meta')
+saver = tf.train.import_meta_graph('RATNet-model.meta')
 # Step-2: Now let's load the weights saved using the restore method.
 saver.restore(sess, tf.train.latest_checkpoint('./'))
 
@@ -47,3 +47,6 @@ feed_dict_testing = {x: x_batch, y_true: y_test_images}
 result=sess.run(y_pred, feed_dict=feed_dict_testing)
 # result is of this format [probabiliy_of_rose probability_of_sunflower]
 print(result)
+
+res_label = ['good','bad']
+print(res_label[result.argmax()])

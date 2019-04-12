@@ -2,10 +2,10 @@
 
 *.png
 *.nii
-*.zip
 *.csv
 *.xlsx
 *.sav
+*.zip
 
 # ignore irrelevant directories
 
@@ -13,4 +13,5 @@
 */data/Example_Data/*
 */data/Raw_Data/*
 */data/Ungrouped_Data/*
-*/data/__pycache__/*
+*/__pycache__/*
+__pycache__/dataset.cpython-37.pyc
