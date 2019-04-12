@@ -5,10 +5,11 @@
 *.zip
 *.csv
 *.xlsx
+*.sav
 
 # ignore irrelevant directories
 
-*/data/Definitions/*
+*/data/Definition/*
 */data/Example_Data/*
 */data/Raw_Data/*
 */data/Ungrouped_Data/*
