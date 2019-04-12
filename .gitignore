@@ -9,7 +9,7 @@
 
 # ignore irrelevant directories
 
-*/data/Definition/*
+*/data/Definitions/*
 */data/Example_Data/*
 */data/Raw_Data/*
 */data/Ungrouped_Data/*
